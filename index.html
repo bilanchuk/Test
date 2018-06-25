@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="ajaxScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<p>GET</p>
+	<form method="GET" action="/send">
+		<input type="text" name="value1" placeholder="Number1"><input type="text" name="value2" placeholder="Number2"><input type="submit" name="" value="Send">
+	</form>
+	<p>POST</p>
+	<form method="POST" action="/send">
+		<input type="text" name="value1" placeholder="Number1"><input type="text" name="value2" placeholder="Number2"><input type="submit" name="" value="Send">
+	</form>
+	<p>AJAX GET</p>
+	<form>
+		<input type="text" id="value1" placeholder="Number1"><input type="text" id="value2" placeholder="Number2"><input type="button" value="Send" id="send">
+	</form>
+	<div id="res"></div>
+	<p>AJAX POST</p>
+	<form>
+		<input type="text" id="value3" placeholder="Number1"><input type="text" id="value4" placeholder="Number2"><input type="button" value="Send" id="sendPost">
+	</form>
+	<div id="res1"></div>
+</body>
+</html>
