@@ -60,4 +60,4 @@ app.post('/loginThose',function(req,res){
 
  
 app.listen(8080)
-console.log('Server run!');
+console.log('run!');
